@@ -1,0 +1,7 @@
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill-info{
+    width: 50%;
+}

@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+}
+.left-header{
+    width: 70%;
+}
+.right-header{
+    width: 30%;
+}
+.name{
+    font-size: 50px;
+}
+.dev{
+    font-size: 30px;
+}
+.mail {
+    color: black;
+}
+.image-khang{
+    width: 50%;
+    margin-left:30% ;
+}
