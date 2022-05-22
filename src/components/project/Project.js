@@ -15,8 +15,8 @@ const data=[
     {
         name:'My CV',
         ngonngu:'ReactJS, ant design',
-        linkgit:'https://github.com/LENGUYENTHAIKHANG/TTCM.git',
-        link:'https://github.com/LENGUYENTHAIKHANG/TTCM.git'
+        linkgit:'https://github.com/LENGUYENTHAIKHANG/mycv.git',
+        link:'https://khangcv.netlify.app/'
     }
 
 ]
@@ -31,7 +31,9 @@ function Project() {
                 <div>
                     <div style={{fontSize:'25px'}}>{da.name}</div>
                     <div style={{fontSize:'20px'}}>{da.ngonngu}</div>
-                    <div style={{fontSize:'17px'}}>{da.link}</div>
+                    <a style={{fontSize:'17px'}} href={da.linkgit}>Github: {da.linkgit}</a>
+                    <br></br>
+                    <a style={{fontSize:'17px'}}href={da.link}>{da.link}</a>
                 </div>
             </div>
         ))}
